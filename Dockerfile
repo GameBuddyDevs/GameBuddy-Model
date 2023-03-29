@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 4567
 
-CMD [ "python", "GameBuddy-ModelApi/api/main.py" ]
+CMD ["python", "GameBuddy-ModelApi/api/main.py"]
