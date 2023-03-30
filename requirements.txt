@@ -2,3 +2,7 @@ fastapi
 uvicorn
 pandas
 scikit-learn
+nbformat
+nbconvert
+SQLAlchemy
+psycopg2
