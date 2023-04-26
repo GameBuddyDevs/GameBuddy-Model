@@ -20,7 +20,7 @@ async def updateData():
     with open(path + "/test.ipynb", "rb") as f:
         nb = nbformat.read(f, nbformat.NO_CONVERT)
 
-    ep = ExecutePreprocessor(timeout=600, kernel_name='python3')
+    ep = ExecutePreprocessor(timeout=2000, kernel_name='python3')
     ep.preprocess(nb, {'metadata': {'path': path}})
     return {"message": "Data updated"}
 
